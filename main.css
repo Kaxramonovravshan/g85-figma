@@ -279,4 +279,217 @@
   .sec-2 .sec2-con .num-box h3 {
     margin-bottom: 20px;
   }
+}
+
+.sec-3 {
+  width: 100%;
+  margin-bottom: 110px;
+}
+.sec-3 .sec3-con {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 95px;
+}
+.sec-3 .sec3-con .text-box {
+  width: 40%;
+}
+.sec-3 .sec3-con .text-box h1 {
+  font-family: sharp;
+  font-weight: 770;
+  font-size: 54px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.sec-3 .sec3-con .text-box p {
+  font-family: sharpL;
+  font-weight: 300;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 34px;
+  letter-spacing: 0%;
+  margin: 30px 0 68px;
+}
+.sec-3 .sec3-con .text-box button {
+  width: 200px;
+  height: 64px;
+  border: none;
+  background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  font-family: SofiaMedium;
+}
+.sec-3 .sec3-con .img-box {
+  width: 45%;
+}
+.sec-3 .sec3-con .img-box img {
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .sec-3 .sec3-con {
+    flex-direction: column-reverse;
+    padding: 0 15px;
+  }
+  .sec-3 .sec3-con .text-box {
+    width: 100%;
+  }
+  .sec-3 .sec3-con .text-box h1 {
+    font-size: 40px;
+  }
+  .sec-3 .sec3-con .text-box p {
+    font-size: 20px;
+  }
+  .sec-3 .sec3-con .img-box {
+    width: 100%;
+  }
+}
+
+.sec-4 {
+  width: 100%;
+  margin-bottom: 80px;
+}
+.sec-4 .sec4-con {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 95px;
+}
+.sec-4 .sec4-con .text-box {
+  width: 40%;
+}
+.sec-4 .sec4-con .text-box h1 {
+  font-family: sharp;
+  font-weight: 770;
+  font-size: 54px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.sec-4 .sec4-con .text-box p {
+  font-family: sharpL;
+  font-weight: 300;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 34px;
+  letter-spacing: 0%;
+  margin: 30px 0 68px;
+}
+.sec-4 .sec4-con .text-box button {
+  width: 200px;
+  height: 64px;
+  border: none;
+  background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  font-family: SofiaMedium;
+}
+.sec-4 .sec4-con .img-box {
+  width: 45%;
+}
+.sec-4 .sec4-con .img-box img {
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .sec-4 .sec4-con {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .sec-4 .sec4-con .text-box {
+    width: 100%;
+  }
+  .sec-4 .sec4-con .text-box h1 {
+    font-size: 40px;
+  }
+  .sec-4 .sec4-con .text-box p {
+    font-size: 20px;
+  }
+  .sec-4 .sec4-con .img-box {
+    width: 90%;
+  }
+}
+
+.sec-5 {
+  width: 100%;
+  margin-bottom: 110px;
+}
+.sec-5 .sec5-con {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 95px;
+}
+.sec-5 .sec5-con .text-box {
+  width: 40%;
+}
+.sec-5 .sec5-con .text-box h1 {
+  font-family: sharp;
+  font-weight: 770;
+  font-size: 54px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.sec-5 .sec5-con .text-box p {
+  font-family: sharpL;
+  font-weight: 300;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 34px;
+  letter-spacing: 0%;
+  margin: 30px 0;
+}
+.sec-5 .sec5-con .text-box .check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+  gap: 17px;
+}
+.sec-5 .sec5-con .text-box .check p {
+  margin: 0;
+}
+.sec-5 .sec5-con .img-box {
+  width: 50%;
+}
+.sec-5 .sec5-con .img-box img {
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .sec-5 .sec5-con {
+    flex-direction: column-reverse;
+    padding: 0 15px;
+  }
+  .sec-5 .sec5-con .text-box {
+    width: 100%;
+  }
+  .sec-5 .sec5-con .text-box h1 {
+    font-size: 40px;
+  }
+  .sec-5 .sec5-con .text-box p {
+    font-size: 20px;
+  }
+  .sec-5 .sec5-con .img-box {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */

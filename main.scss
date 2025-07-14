@@ -21,6 +21,22 @@
   src: url(./fonts/Sharp\ Sans\ Light.otf);
 }
 
+@mixin btn {
+  width: 200px;
+  height: 64px;
+  border: none;
+  background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  font-family: SofiaMedium;
+}
+
 .nav {
   width: 100%;
   height: 100px;
@@ -143,19 +159,7 @@
       }
 
       button {
-        width: 200px;
-        height: 64px;
-        border: none;
-        background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
-        border-radius: 50px;
-        color: #fff;
-        font-weight: 400;
-        font-size: 24px;
-        leading-trim: NONE;
-        line-height: 100%;
-        letter-spacing: 0%;
-        text-align: center;
-        font-family: SofiaMedium;
+        @include btn;
       }
     }
 
@@ -316,6 +320,222 @@
         h3 {
           margin-bottom: 20px;
         }
+      }
+    }
+  }
+}
+
+.sec-3 {
+  width: 100%;
+  margin-bottom: 110px;
+  .sec3-con {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+
+    .text-box {
+      width: 40%;
+      h1 {
+        font-family: sharp;
+        font-weight: 770;
+        font-size: 54px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+      }
+
+      p {
+        font-family: sharpL;
+        font-weight: 300;
+        font-size: 22px;
+        leading-trim: NONE;
+        line-height: 34px;
+        letter-spacing: 0%;
+        margin: 30px 0 68px;
+      }
+
+      button {
+        @include btn;
+      }
+    }
+
+    .img-box {
+      width: 45%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .sec3-con {
+      flex-direction: column-reverse;
+      padding: 0 15px;
+
+      .text-box {
+        width: 100%;
+        h1 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+
+      .img-box {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.sec-4 {
+  width: 100%;
+  margin-bottom: 80px;
+  .sec4-con {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+
+    .text-box {
+      width: 40%;
+      h1 {
+        font-family: sharp;
+        font-weight: 770;
+        font-size: 54px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+      }
+
+      p {
+        font-family: sharpL;
+        font-weight: 300;
+        font-size: 22px;
+        leading-trim: NONE;
+        line-height: 34px;
+        letter-spacing: 0%;
+        margin: 30px 0 68px;
+      }
+
+      button {
+        @include btn;
+      }
+    }
+
+    .img-box {
+      width: 45%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .sec4-con {
+      flex-direction: column;
+      padding: 0 15px;
+
+      .text-box {
+        width: 100%;
+        h1 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+
+      .img-box {
+        width: 90%;
+      }
+    }
+  }
+}
+
+.sec-5 {
+  width: 100%;
+  margin-bottom: 110px;
+  .sec5-con {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+
+    .text-box {
+      width: 40%;
+      h1 {
+        font-family: sharp;
+        font-weight: 770;
+        font-size: 54px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+      }
+
+      p {
+        font-family: sharpL;
+        font-weight: 300;
+        font-size: 22px;
+        leading-trim: NONE;
+        line-height: 34px;
+        letter-spacing: 0%;
+        margin: 30px 0;
+      }
+
+      .check {
+        display: flex;
+        align-items: center;
+        margin-bottom: 17px;
+        gap: 17px;
+        p {
+          margin: 0;
+        }
+      }
+    }
+
+    .img-box {
+      width: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .sec5-con {
+      flex-direction: column-reverse;
+      padding: 0 15px;
+
+      .text-box {
+        width: 100%;
+        h1 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+
+      .img-box {
+        width: 100%;
       }
     }
   }
